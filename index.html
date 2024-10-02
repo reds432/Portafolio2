@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">Acerca de mí <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="container py-5">
+            <h1 class="display-4">Acerca de mí</h1>
+            <p class="lead">Soy Juan David, un desarrollador web apasionado con experiencia en diversas cosas. Me gusta buscar soluciones a diferentes problemas y ser sociable.</p>
+            <p class="text-info">Mis habilidades incluyen:</p>
+            <ul class="list-group">
+                <li class="list-group-item text-success">Jugar futbol</li>
+                <li class="list-group-item text-success">Ser buen compañerista</li>
+                <li class="list-group-item text-success">Ayudar a las demas personas</li>
+            </ul>
+            <h2 class="text-info">Habilidades y Debilidades</h2>
+            <table class="table table-striped">
+                <tr>
+                    <th>Habilidades</th>
+                    <th>Nivel</th>
+                    <th>Debilidades</th>
+                    <th>Área</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo web con HTML, CSS y Python</td>
+                    <td>Medio bajo</td>
+                    <td>Gestión de proyectos</td>
+                    <td>mejora</td>
+                </tr>
+                <tr>
+                    <td>Diseño web</td>
+                    <td>Intermedio</td>
+                    <td>Comunicación</td>
+                    <td>Buena</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo de problemas</td>
+                    <td>Principiante</td>
+                    <td>Trabajo en equipo</td>
+                    <td>Buena</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermedio</td>
+                    <td>Resolución de conflictos</td>
+                    <td>Bueno</td>
+                </tr>
+            </table>
+            <img src="img/juan.jpg" alt="Juan David" class="img-fluid rounded-circle" width="200" height="200">
+        </section>
+        <section id="contact" class="container py-5">
+            <h1 class="display-4">Contacto</h1>
+            <p class="lead">Puedes contactarme a través de:</p>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="mailto:tunombre@email.com">Correo electrónico</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/tunombre">Twitter</a></li>
+                <li class="list-group-item"><a href="https://github.com/tunombre">GitHub</a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/tunombre/">LinkedIn</a></li>
+            </ul>
+            <p>O puedes llenar el formulario de contacto:</p>
+            
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">Primer Nombre</label>
+    <input type="text" class="form-control" id="validationCustom01" value="" required>
+    <div class="valid-feedback">
+      Esta bien!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Segundo Nombre</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" required>
+    <div class="valid-feedback">
+      Esta bien!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomEmail" class="form-label">Correro</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomEmail" aria-describedby="inputGroupPrepend" required>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">Ciudad</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Porfavor escribe una ciudad.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Aceptas los terminos y condiciones.
+      </label>
+      <div class="invalid-feedback">
+        debes aceptar antes de enviar.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Subir Formulario</button>
+  </div>
+</form>
